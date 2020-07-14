@@ -16,7 +16,6 @@
         <spring.version>2.3.1.RELEASE</spring.version>
         <oracle.db.version>19.3.0.0</oracle.db.version>
         <lombok.version>1.18.12</lombok.version>
-        <swagger.version>2.9.2</swagger.version>
         <hikari.version>3.4.5</hikari.version>
         <supercsv.version>2.4.0</supercsv.version>
     </properties>
@@ -55,11 +54,6 @@
                     <artifactId>tomcat-jdbc</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>${swagger.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
